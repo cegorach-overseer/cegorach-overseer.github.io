@@ -1,8 +1,8 @@
 ---
 title: test post
 date: 2024-04-21 3:00:00 -500
-catagories: [test1, test2]
-tags: [delete]
+catagories: []
+tags: []
 ---
 #Test Header
 
