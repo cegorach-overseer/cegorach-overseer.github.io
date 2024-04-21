@@ -9,21 +9,21 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: America/Toronto
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: The Webway # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: A small technical based homelab blog and website project  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A blog I created to further expand on my homelab and tech focused learning. This will be a blog detailing various homelab projects, technical issues, fixes and opinion pieces within the tech sphere.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://thewebway.org"
+url: "https://website.thewebway.org"
 
 github:
   username: cegorach-overseer # change to your github username
