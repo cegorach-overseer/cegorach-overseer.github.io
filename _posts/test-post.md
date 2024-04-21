@@ -1,7 +1,7 @@
 ---
 title: test post
 date: 2024-04-21 3:00:00 -500
-catagories: []
+categories: []
 tags: []
 ---
 #Test Header
