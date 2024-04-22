@@ -1,7 +1,7 @@
 ---
 title: Hello Homelab
 date: 2024-04-21 12:00:00 -500
-categories: [homelab]
+categories: [homelab, website]
 tags: [jekyll, website, github, pain]
 ---
 
