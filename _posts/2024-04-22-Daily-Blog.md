@@ -1,5 +1,6 @@
 ---
 title: Future Projects...
+date: 2024-04-22 09:45:00
 categories: [homelab, projects]
 tags: [planning]
 ---
