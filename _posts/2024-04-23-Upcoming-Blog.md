@@ -1,7 +1,7 @@
 ---
 title: WiP: Why do I use linux?
 date: 2024-04-23 09:30:00
-categories: [daily-update]
+categories: [daily update, plans]
 tags: [planning, linux]
 ---
 # Upcoming Linux writeup
