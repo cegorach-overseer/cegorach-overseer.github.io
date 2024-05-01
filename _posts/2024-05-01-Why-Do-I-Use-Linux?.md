@@ -1,8 +1,8 @@
 ---
 title: Why do I use Linux?
 date: 2024-05-01 10:45:00 -000
-categories: operating systems, linux
-tags: linux, operating systems, arch linux
+categories: [operating systems, linux]
+tags: [linux, operating systems, arch linux]
 ---
 
 ## Why did I decide to swap to Linux?
