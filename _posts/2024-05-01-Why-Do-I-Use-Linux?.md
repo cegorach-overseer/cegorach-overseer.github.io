@@ -1,11 +1,11 @@
 ---
 title: Why do I use Linux?
-date: 2024-05-01 10:45:00
+date: 2024-05-01 10:45:00 -000
 categories: operating systems, linux
 tags: linux,operating systems, arch linux
 ---
 
-# Why did I decide to swap to Linux?
+## Why did I decide to swap to Linux?
 
 I used to hold myself to using Windows simply because it was what I always knew, the same goes for many.
 In a sense, Windows is the 'PC' for a grand majority of people. The same way Apple is the 'Phone' for the grand majority.
