@@ -42,4 +42,4 @@ After doing the previous steps, you should be done and the game should launch wi
 
 While I still do crash every few minutes, I'm working on improving the stability. However, These are still good steps to get you started on your journey. And the steps should be roughly reproduceable across different distros.
 
-If you ever need any technical help related to Dauntless however, join the [Discord](http://discord.gg/dauntless) and ask the user 'kurtfrag' in the technical-workarounds chat.
+If you ever need any technical help related to Dauntless however, join the [Discord](https://discord.gg/dauntless) and ask the user 'kurtfrag' in the technical-workarounds chat.
