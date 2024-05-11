@@ -1,6 +1,6 @@
 ---
 title: Dauntless on Arch Linux
-date: 2024-05-10 23:00:00 -000
+date: 2024-05-10 23:00:00 +0000
 categories: [gaming, linux]
 tags: [linux, arch linux, gaming, dauntless, heroic]
 ---
