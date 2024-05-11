@@ -15,30 +15,31 @@ Some friends invited me to get back into the game and seeing that EasyAntiCheat 
 - Launcher: Heroic
 
 # Instructions
-1) Download Heroic Game Launcher
+1. Download Heroic Game Launcher
 ```zsh
 sudo pacman -Syu heroic-games-launcher-bin
 ```
-2) Connect Epic Games Account through Heroic and download Dauntless. Be sure to select Proton 8.0 for your preferred version of Wine
-3) After finishing the installation, go into the Dauntless(Settings) menu in Heroic and enable/set the following
-a) Under the WINE menu: Enable Esync, Enable Fsync, Auto Install/Update DXVK-NVAPI on  Prefix
-b) Under the OTHER menu: Enable 'Use GameMode' -> (download gamemode through pacman if you don't have it already), EasyAntiCheat Runtime
-c) Under the ADVANCED menu: Under enviroment variables: 
-  - Name=PROTON_EAC_RUNTIME
-  - Value="/home/$USERNAME/.local/share/Steam/steamapps/common/Proton EasyAntiCheat Runtime"
-  And another value:
-  - Name=DXVK_ASYNC
-  - Value=1
-4) You will need to make a sym link(soft link) from the 'EasyAntiCheat' folder inside the 'Win64' folder.
-Figure out where you installed Dauntless and go into that folder in a gui file manager(if you use a TUI file manager, you don't need this guide) where you should see the following files:
+
+2. Connect Epic Games Account through Heroic and download Dauntless. Be sure to select Proton 8.0 for your preferred version of Wine
+   
+3. After finishing the installation, go into the Dauntless(Settings) menu in Heroic and enable/set the following
+   - Under the WINE menu: Enable Esync, Enable Fsync, Auto Install/Update DXVK-NVAPI on  Prefix
+   - Under the OTHER menu: Enable 'Use GameMode' -> (download gamemode through pacman if you don't have it already), EasyAntiCheat Runtime
+   - Under the ADVANCED menu: Under enviroment variables:
+    1. Name=PROTON_EAC_RUNTIME | Value="/home/$USERNAME/.local/share/Steam/steamapps/common/Proton EasyAntiCheat Runtime"
+    2. Name=DXVK_ASYNC | Value=1
+  
+4. You will need to make a sym link(soft link) from the 'EasyAntiCheat' folder inside the 'Win64' folder.
+Figure out where you installed Dauntless and go into that folder in a gui file manager(if you use a TUI file manager, you don't need this guide) where you should see the following folders:
 - 'Archon'
 - 'EasyAntiCheat'
 - 'Engine'
-Right click the 'EasyAntiCheat' folder and select 'copy location'(using dolphin personally). Next you want to go into this path of folders:
-- Archon/Binaries/Win64/
-Then right click and select 'create new' -> 'link to file or directory'. Paste the path of the folder location you copied and make sure the name is set to 'EasyAntiCheat'.
+
+Right click the 'EasyAntiCheat' folder and select 'copy location'(using dolphin personally). Next you want to go into this path of folders: 'Archon/Binaries/Win64/'. Then right click and select 'create new' -> 'link to file or directory'. Paste the path of the folder location you copied and make sure the name is set to 'EasyAntiCheat'.
 
 # Conclusion
-After doing the previous steps, you should be done and the game should launch with the "EasyAntiCheat Catalogue Not Found" error.
-While I still do expirence a crash every few minutes, I'm working on improving the stability. These are good steps to get you started however.
-If you ever need any technical help related to Dauntless however, join the ![discord link](http://discord.gg/dauntless Discord) and ask the user 'kurtfrag' in the technical-workarounds chat.
+After doing the previous steps, you should be done and the game should launch without the "EasyAntiCheat Catalogue Not Found" error.
+
+While I still do crash every few minutes, I'm working on improving the stability. However, These are still good steps to get you started on your journey. And the steps should be roughly reproduceable across different distros.
+
+If you ever need any technical help related to Dauntless however, join the [Discord](http://discord.gg/dauntless) and ask the user 'kurtfrag' in the technical-workarounds chat.
