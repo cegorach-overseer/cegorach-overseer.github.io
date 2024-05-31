@@ -5,7 +5,7 @@ categories: [homelab, website]
 tags: [jekyll, website, github, gitlab]
 ---
 
-#Why I chose Github
+# Why I chose Github
 
 Initially, I wanted to create and post my Jekyll blog utilizing Gitlab Pages but decided against it.
 
